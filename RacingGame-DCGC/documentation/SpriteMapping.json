@@ -1,0 +1,50 @@
+{
+  "track": {
+    "image": "assets/images/track_1.png",
+    "width": 1920,
+    "height": 1080
+  },
+  "vehicles": [
+    {"name": "car_black_1", "image": "assets/images/car_black_1.png", "width": 71, "height": 131},
+    {"name": "car_blue_1", "image": "assets/images/car_blue_1.png", "width": 71, "height": 131},
+    {"name": "car_green_1", "image": "assets/images/car_green_1.png", "width": 71, "height": 131},
+    {"name": "car_red_1", "image": "assets/images/car_red_1.png", "width": 71, "height": 131},
+    {"name": "car_yellow_1", "image": "assets/images/car_yellow_1.png", "width": 71, "height": 131}
+  ],
+  "spritesheet_tiles": {
+    "image": "assets/images/spritesheet_tiles.png",
+    "tile_width": 64,
+    "tile_height": 64,
+    "columns": 9,
+    "rows": 9,
+    "tiles": [
+      {"name": "road_straight", "x": 0, "y": 0, "width": 64, "height": 64},
+      {"name": "road_curve", "x": 64, "y": 0, "width": 64, "height": 64},
+      {"name": "grass", "x": 128, "y": 0, "width": 64, "height": 64},
+      {"name": "barrier", "x": 192, "y": 0, "width": 64, "height": 64}
+    ]
+  },
+  "spritesheet_objects": {
+    "image": "assets/images/spritesheet_objects.png",
+    "object_width": 32,
+    "object_height": 32,
+    "columns": 8,
+    "rows": 8,
+    "objects": [
+      {"name": "cone", "x": 0, "y": 0, "width": 32, "height": 32},
+      {"name": "tire_stack", "x": 32, "y": 0, "width": 32, "height": 32},
+      {"name": "oil_spill", "x": 64, "y": 0, "width": 32, "height": 32}
+    ]
+  },
+  "spritesheet_characters": {
+    "image": "assets/images/spritesheet_characters.png",
+    "character_width": 32,
+    "character_height": 32,
+    "columns": 4,
+    "rows": 4,
+    "characters": [
+      {"name": "driver_1", "x": 0, "y": 0, "width": 32, "height": 32},
+      {"name": "driver_2", "x": 32, "y": 0, "width": 32, "height": 32}
+    ]
+  }
+} 

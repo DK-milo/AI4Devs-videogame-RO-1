@@ -1,23 +1,21 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background: #000;
     margin: 0;
-    background-color: #000;
     color: #fff;
     font-family: Arial, sans-serif;
 }
 #game-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
-    touch-action: none; /* Move touch-action: none here */
+    width: 1920px;
+    height: 1080px;
+    overflow: auto;
+    display: block;
+    margin: 0 auto;
 }
-#maze-canvas {
-    border: 2px solid #fff;
+canvas {
+    display: block;
+    width: 1920px !important;
+    height: 1080px !important;
+    background: #000;
 }
 #config-screen {
     display: flex;
